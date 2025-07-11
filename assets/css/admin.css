@@ -1,0 +1,122 @@
+/* ===== HEADER & NAVBAR ===== */
+.admin-header {
+    padding: 20px;
+    background: #fafafa;
+    border-bottom: 4px solid #1e73be;
+}
+
+.admin-header h1 {
+    margin: 0;
+    color: #1e73be;
+}
+
+.admin-nav {
+    display: flex;
+    gap: 1px;
+    background: #1e73be;
+}
+
+.admin-nav a {
+    flex: 1;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.admin-nav a:hover,
+.admin-nav a.active {
+    background: #135a96;
+}
+
+/* ===== TABEL ===== */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table tfoot {
+    background-color: #1e73be; /* Warna biru sama seperti header */
+    color: #fff;
+    font-weight: bold;
+}
+
+.table thead {
+    background: #1e73be;
+    color: #fff;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f0f8ff;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    margin-right: 5px;
+    padding: 6px 12px;
+    background: #999;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #777;
+}
+
+.btn-danger {
+    background: #d9534f;
+}
+
+.btn-danger:hover {
+    background: #c9302c;
+}
+
+/* ===== FOOTER ===== */
+.admin-footer {
+    background: #222;
+    color: #eee;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+/* === FORM TAMBAH ARTIKEL ===================================== */
+.form-add p {               /* pembungkus tiap baris */
+    margin-bottom: 15px;
+}
+
+.form-add input[type="text"],
+.form-add textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-add textarea {
+    resize: vertical;       /* boleh di‑resize tinggi saja */
+    min-height: 140px;
+}
+
+.btn.btn-large {            /* tombol biru besar */
+    background: #1e73be;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.btn-large:hover {
+    background: #135a96;
+}
